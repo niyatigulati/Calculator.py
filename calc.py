@@ -21,10 +21,6 @@ def calc(choice, x, y):
         div(x,y)
 
 
-#TODO 
-# main function here 
-# Display options on what a calculator can do to perform (1 for add, 2 for sub and so on... )
-# This must be in a while loop
 while(1):
     var1=int(input("Enter first number:"))
     var2=int(input("Enter second number:"))
@@ -32,3 +28,6 @@ while(1):
     print("1. add \n2. sub \n3. mul \n4. div \n")
     var3=int(input("Enter choice:"))
     calc(var3,var1,var2)
+    if(var3!=1&2&3&4)
+    break
+  
