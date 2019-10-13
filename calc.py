@@ -1,3 +1,15 @@
+def add(a, b):
+  print(f"The summation is: {a+b}")
+  
+def sub(a, b):
+  print(f"The difference is: {a-b}")
+  
+def mul(a, b):
+  print(f"The product is: {a*b}")
+  
+def div(a, b):
+  print(f"The division is: {a/b}")
+
 def calc(choice, x, y):
     if (choice == 1):
         add(x, y)
@@ -5,26 +17,16 @@ def calc(choice, x, y):
         sub(x, y)
     elif (choice == 3):
         mul(x,y)
-    elif (choice == 2):
+    elif (choice == 4):
         div(x,y)
 
 
-#  the below functions must display the output for the given arithmetic
-# TODO 
-def add(a, b):
-  pass
-  
-def sub(a, b):
-  pass
-  
-def mul(a, b):
-  pass
-  
-def div(a, b):
-  pass
-
-
-# TODO 
+#TODO 
 # main function here 
 # Display options on what a calculator can do to perform (1 for add, 2 for sub and so on... )
 # This must be in a while loop
+while(1):
+    var1=int(input("Enter first number:"))
+    var2=int(input("Enter second number:"))
+    print("What do you want to do with these numbers ?")
+    print("1. add \n 2. sub \n 3. mul \n 4. div " )
