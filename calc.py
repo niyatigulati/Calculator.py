@@ -29,4 +29,4 @@ while(1):
     var3=int(input("Enter choice:"))
     if(var3!=1 and var3!=2 and var3!=3 and var3!=4):
       break
-  calc(var3,var1,var2)
+    calc(var3,var1,var2)
