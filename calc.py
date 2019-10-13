@@ -25,6 +25,7 @@ while(1):
     var1=int(input("Enter first number:"))
     var2=int(input("Enter second number:"))
     print("What do you want to do with these numbers ?")
+    
     print("1. add \n2. sub \n3. mul \n4. div \n")
     var3=int(input("Enter choice:"))
     if(var3!=1 and var3!=2 and var3!=3 and var3!=4):
