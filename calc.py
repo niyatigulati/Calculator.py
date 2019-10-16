@@ -20,7 +20,6 @@ def calc(choice, x, y):
     elif (choice == 4):
         div(x,y)
 
-
 while(1):
     var1=int(input("Enter first number:"))
     var2=int(input("Enter second number:"))
