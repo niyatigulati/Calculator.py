@@ -12,16 +12,16 @@ def calc(choice, x, y):
 #  the below functions must display the output for the given arithmetic
 # TODO 
 def add(a, b):
-  pass
+  print(f'The summation is {a+b}')
   
 def sub(a, b):
-  pass
+  print(f'The difference is {a-b}')
   
 def mul(a, b):
-  pass
+  print(f'The product is {a*b}')
   
 def div(a, b):
-  pass
+  print(f'The division is {a/b}')
 
 
 # TODO 
