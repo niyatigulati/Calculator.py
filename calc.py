@@ -1,30 +1,30 @@
 def calc(choice, x, y):
-    if (choice == 1):
+    if (choice == 'a'):
         add(x, y)
-    elif (choice == 2):
+    elif (choice == 's'):
         sub(x, y)
-    elif (choice == 3):
+    elif (choice == 'm'):
         mul(x,y)
-    elif (choice == 2):
+    elif (choice == 'd'):
         div(x,y)
 
 
 #  the below functions must display the output for the given arithmetic
 # TODO 
 def add(a, b):
-  pass
+  print(f'The summation is {a+b}')
   
 def sub(a, b):
-  pass
+  print(f'The difference is {a-b}')
   
 def mul(a, b):
-  pass
+  print(f'The product is {a*b}')
   
 def div(a, b):
-  pass
+  print(f'The division is {a/b}')
 
-
-# TODO 
-# main function here 
-# Display options on what a calculator can do to perform (1 for add, 2 for sub and so on... )
-# This must be in a while loop
+def main():
+    n=input('''input your choice \n"a" to add \n"s" to subtract \n"m" to multiply" \n"d" to divide' )
+    a=int(input("enter the first number"))
+    b=int(input("enter the second number"))
+    calc(n,a,b)
